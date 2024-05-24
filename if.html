@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var gender = "Male";
+        var salary = 50000;
+        var a_salary = salary * 12;
+            document.write(a_salary,"<br>");
+        if(a_salary>500000){
+            if(gender == "Male"){
+                var tax = a_salary * 10 / 100;
+                document.write(tax);
+            }
+            else if(gender == "Female"){
+                document.write("5% tax");
+            }
+            else {
+                document.write("Gender is invalid");
+            }
+          
+        }
+        else {
+            document.write("No Tax for now");
+        }
+    </script>
+    
+
+</body>
+</html>
